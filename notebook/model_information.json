@@ -1,0 +1,25 @@
+{
+    "problem_type": "Binary Classification",
+    "target_column": "diabetes",
+    "selected_model": "Random Forest",
+    "numeric_features": [
+        "age",
+        "hypertension",
+        "heart_disease",
+        "bmi",
+        "HbA1c_level",
+        "blood_glucose_level"
+    ],
+    "categorical_features": [
+        "gender",
+        "smoking_history"
+    ],
+    "evaluation_metrics": {
+        "accuracy": 0.9095,
+        "precision": 0.48260594560404807,
+        "recall": 0.8976470588235295,
+        "f1_score": 0.6277252159605101,
+        "roc_auc": 0.9756901639344262,
+        "pr_auc_average_precision": 0.8778857133411753
+    }
+}
